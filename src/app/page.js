@@ -1,7 +1,14 @@
+import Grid from "@/components/Grid";
+import Toolbar from "@/components/Toolbar";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>hello world</h1>
-    </main>
+    <div className="p-4">
+      <h1 className="text-3xl font-bold text-blueviolet mb-4">
+        Spreadsheet Application
+      </h1>
+      <Toolbar />
+      <Grid />
+    </div>
   );
 }
